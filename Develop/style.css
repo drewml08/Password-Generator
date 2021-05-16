@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #076613;
 }
 
 .wrapper {
@@ -27,7 +27,7 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(0, 0%, 0%);
 }
 
 .card {
@@ -134,4 +134,10 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
+}
+
+.btn:hover {
+
+  background-color: #116813;
+  color: white;
 }
